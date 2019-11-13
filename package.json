@@ -1,0 +1,30 @@
+{
+	"name": "web-admin-foodpro",
+	"version": "1.0.0",
+	"description": "Internet of Things",
+	"main": "index.php",
+	"directories": {
+		"test": "tests"
+	},
+	"scripts": {
+		"test": "echo Hello web-admin-foodpro, test!"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git clone https://santipap@bitbucket.org/ielt-ekapob/web-admin-foodpro.git"
+	},
+	"keywords": [
+		"web-admin-foodpro"
+	],
+	"author": "Santipap Ongart",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^2.26.5",
+		"gulp": "^3.9.1",
+		"gulp-connect-php": "^1.0.3"
+	},
+	"dependencies": {
+		"bootstrap-toggle": "^2.2.2",
+		"npm": "^6.9.0"
+	}
+}
